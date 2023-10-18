@@ -1,8 +1,8 @@
 # Troubleshooting sheet
 
-### I) First error: Error User.php line 29
+### I) First error: Error User.php line 59
 
-**Given**: I was looking for testing the links between users. For example, I expected that User 1 was following User 2.  
+**Given**: I was looking for testing the functien which set a crypted password. For example, I expected that User 1 password unhashed was similar to the user password.  
 
 
 
