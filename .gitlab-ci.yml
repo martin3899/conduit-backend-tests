@@ -13,7 +13,7 @@ job_test:
     - php composer.phar install
 
   script:
-    - phpunit phpunit_myapp.xml tests
+    - php artisan test
 
 job_deployment:
   script:
