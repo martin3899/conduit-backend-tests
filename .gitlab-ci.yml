@@ -8,8 +8,9 @@ job_test:
     - apt-get update -y
     - apt-get install -y curl
     - curl -sS https://getcomposer.org/installer | php
-    - php composer.phar install
     - php composer.phar update
+    - php composer.phar install
+
   script:
     - phpunit phpunit_myapp.xml tests
 
