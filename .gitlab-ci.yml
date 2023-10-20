@@ -15,4 +15,3 @@ job_test:
 job_deployment:
   script:
     - echo "Déploiement en cours..."
-
