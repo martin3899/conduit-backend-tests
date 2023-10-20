@@ -6,11 +6,8 @@ job_test:
   image: php:7.4
   before_script:
     - apt-get update -y
-    - apt-get install -y curl
-    - apt-get install zip unzip php-zip
-    - curl -sS https://getcomposer.org/installer | php
-    - php composer.phar update
-    - php composer.phar install
+    - composer update
+    - composer install
 
   script:
     - phpunit phpunit_myapp.xml tests
