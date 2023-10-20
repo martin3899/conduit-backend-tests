@@ -6,8 +6,8 @@ job_test:
   image: php:7.4
   before_script:
     - apt-get update -y
-    - composer update
     - composer install
+    - composer update
 
   script:
     - phpunit phpunit_myapp.xml tests
