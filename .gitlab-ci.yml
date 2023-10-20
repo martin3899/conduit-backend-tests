@@ -5,8 +5,8 @@ stages:
 job_test:
   image: php:7.4
   before_script:
-    - apt-get update -ygg
-    - apt-get install -yqq curl
+    - apt-get update -y
+    - apt-get install -y curl
     - curl -sS https://getcomposer.org/installer | php
     - php composer.phar install
   script:
