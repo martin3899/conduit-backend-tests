@@ -4,6 +4,7 @@ stages:
 
 job_test:
   image: php:7.4
+  coverage: '/^\s*Lines:\s*\d+.\d+\%/'
   before_script:
     - apt-get update -y
     - apt-get install -y curl
