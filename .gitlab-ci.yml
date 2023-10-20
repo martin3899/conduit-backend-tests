@@ -1,6 +1,6 @@
 stages:
   - test
-  - deployment
+  - deployement
 
 job_test:
   image: php:7.4
